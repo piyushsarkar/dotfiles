@@ -134,7 +134,6 @@ eval `dircolors ~/.dircolors`
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
 # update zsh custom theme and plugins
 alias zcustom='for i in $ZSH_CUSTOM/*/*/.git; do ( echo $i; cd $i/..; git pull; ); done'
