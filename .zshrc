@@ -17,6 +17,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 # ZSH_THEME="agnoster"
 ZSH_THEME="powerlevel10k/powerlevel10k"
+# ZSH_THEME="spaceship"
 
 
 # Set list of themes to pick from when loading at random
@@ -132,8 +133,8 @@ eval `dircolors ~/.dircolors`
 # alias nvm='unalias nvm; unalias node; unalias npm; nvm_load; nvm $@'
 # end nvm config
 
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-
 # update zsh custom theme and plugins
 alias zcustom='for i in $ZSH_CUSTOM/*/*/.git; do ( echo $i; cd $i/..; git pull; ); done'
+
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
