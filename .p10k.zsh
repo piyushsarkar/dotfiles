@@ -495,7 +495,7 @@
   # typeset -g POWERLEVEL9K_VCS_VISUAL_IDENTIFIER_EXPANSION='⭐'
   typeset -g POWERLEVEL9K_VCS_VISUAL_IDENTIFIER_EXPANSION= # EDITED BY - PIYUSH
   # Custom prefix.
-  typeset -g POWERLEVEL9K_VCS_PREFIX='%B%fon ' # EDITED BY - PIYUSH (default is '%fon ')
+  # typeset -g POWERLEVEL9K_VCS_PREFIX='%B%fon ' # EDITED BY - PIYUSH (default is '%fon ')
 
   # Show status of repositories of these types. You can add svn and/or hg if you are
   # using them. If you do, your prompt may become slow even when your current directory
@@ -556,7 +556,7 @@
   # Custom icon.
   # typeset -g POWERLEVEL9K_COMMAND_EXECUTION_TIME_VISUAL_IDENTIFIER_EXPANSION='⭐'
   # Custom prefix.
-  typeset -g POWERLEVEL9K_COMMAND_EXECUTION_TIME_PREFIX='%ftook '
+  # typeset -g POWERLEVEL9K_COMMAND_EXECUTION_TIME_PREFIX='%ftook '
 
   #######################[ background_jobs: presence of background jobs ]#######################
   # Don't show the number of background jobs.
@@ -1566,7 +1566,7 @@
   # Custom icon.
   # typeset -g POWERLEVEL9K_TIME_VISUAL_IDENTIFIER_EXPANSION='⭐'
   # Custom prefix.
-  typeset -g POWERLEVEL9K_TIME_PREFIX='%fat '
+  # typeset -g POWERLEVEL9K_TIME_PREFIX='%fat '
 
   # Example of a user-defined prompt segment. Function prompt_example will be called on every
   # prompt if `example` prompt segment is added to POWERLEVEL9K_LEFT_PROMPT_ELEMENTS or
